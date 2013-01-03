@@ -38,25 +38,59 @@
 							diagnóstico bioquí­micos, con una amplia trayectoria en Paraná y la Región, para satisfacer la creciente 
 							demanda de nuestros socios y no socios brindando más y mejores servicios.                 
                 </p>
-                <p><a class="btn btn-primary btn-large" href="historia.php">Leer más &raquo;</a></p>
+                <p><a class="btn btn-info btn-large" href="historia.php">Leer más &raquo;</a></p>
             </div>
 
             <!-- Example row of columns -->
             <div class="row">
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                
+                <div class="span4 offset1">
+          
+                    <div id="myCarousel" class="carousel slide">
+                    <!-- Carousel items -->
+                        <div class="carousel-inner" >
+                            <div class="active item" >
+                                <div class="miitem">
+                                    <img src="img/iso90012008.png" style="width:150px; height: 150px;"/> 
+                                    
+                                </div>
+                                <div class="carousel-caption" style="text-align: right">
+                                        <p>ISO 9001:2008</p>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="miitem">
+                                    <img src="img/controlCalidadCober.png"/>
+                                </div>
+                                <div class="carousel-caption" style="text-align: right">
+                                        <p>COBER</p>
+                                </div>
+            
+                            </div>
+                            <div class="item">
+                                <div class="miitem">
+                                    <img src="img/controlCalidadCemic.png"/>
+                                </div>
+                                <div class="carousel-caption" style="text-align: right">
+                                        <p>CEMIC</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    </div>
+                                                
+
                 </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                <div class="span6">
+                    <h3>Certificamos Calidad</h3>
+                    <p style="text-align: justify">Nuestra misión es fortalecer nuestro Sistema de Gestión de la Calidad basado en Normas Internacionales, que consolide 
+                        la Mejora Continua de todos nuestros procesos que hacen a los Servicios de Laboratorio de Análisis Clínicos, 
+                        teniendo como principal eje de acción "la solidaridad", piedra fundamental del Cooperativismo.</p>
+                    <p><a class="btn" href="controlCalidad.php">Leer más &raquo;</a></p>
                 </div>
             </div>
           <hr>
