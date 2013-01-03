@@ -1,3 +1,3 @@
 <?php
-    include ("foot/foot3.php");
+    include ("foot/foot4.php");
 ?>
